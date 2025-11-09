@@ -57,7 +57,7 @@ body {
 /* Hero */
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url('./WhatsApp\ Image\ 2025-11-04\ at\ 19.36.09.jpeg') center/cover no-repeat;
+    url('/Image/Image\ 5.jpeg') center/cover no-repeat;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -140,6 +140,7 @@ body {
 /* packages */
 .package {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
   padding: 20px;
@@ -483,10 +484,6 @@ footer {
     height: 300px;
   }
 
-  .package-tour{
-    width: 200px;
-    height: 400px;
-  }
 
   .package-info{
     offset: 40px;
