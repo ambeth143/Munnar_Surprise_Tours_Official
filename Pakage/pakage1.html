@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munnar Surprise Tours</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="timeline">
+
+        <!-- Day 1 -->
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>Day 1</h2>
+
+                <p>Periyakanal Water Falls</p>
+                <p>Gap Road View Point</p>
+                <p>Lackart Tea Garden viewpoints</p>
+                <p>Kannan Devan Hills viewpoints</p>
+                <p>Sengulam Dam Boating</p>
+                <p>DreamLand Fun Activity</p>
+                <p>Hot Air Balloon</p>
+                <p>Spices Garden Tour</p>
+                <p>Kallar waterfalls</p>
+                <p>Karadippara viewpoint</p>
+
+            </div>
+        </div>
+
+
+
+        <style>
+            /* General Reset */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            /* Body Styling */
+            body {
+                font-family: "Poppins", sans-serif;
+                background-color: #fff;
+                color: #0f0e0e;
+                padding: 40px 0;
+            }
+
+            /* Timeline Container */
+            .timeline {
+                position: relative;
+                margin: 0 auto;
+                padding: 20px;
+                width: 90%;
+                max-width: 700px;
+            }
+
+            /* Timeline Vertical Line */
+            .timeline::before {
+                content: "";
+                position: absolute;
+                left: 30px;
+                top: 0;
+                width: 3px;
+                height: 100%;
+                background-color: #a64bf4;
+            }
+
+            /* Timeline Item */
+            .timeline-item {
+                position: relative;
+                margin-bottom: 40px;
+                padding-left: 70px;
+            }
+
+            /* Content Box */
+            .timeline-content {
+                background-color: #2b2b2b;
+                padding: 20px;
+                border-radius: 12px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+            }
+
+            /* Day Heading */
+            .timeline-content h2 {
+                color: #fff;
+                font-size: 1.4rem;
+                margin-bottom: 10px;
+                font-weight: 600;
+            }
+
+            /* Paragraph Text */
+            .timeline-content p {
+                line-height: 1.6;
+                color: #dcdcdc;
+                margin-bottom: 8px;
+                font-size: 0.95rem;
+            }
+
+            /* Strong Text Highlight */
+            .timeline-content p strong {
+                color: #a64bf4;
+            }
+
+            /* Responsive Design */
+            @media (max-width: 600px) {
+                .timeline::before {
+                    left: 15px;
+                }
+
+                .timeline-item {
+                    padding-left: 50px;
+                }
+
+                .timeline-dot {
+                    left: 7px;
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .timeline-content {
+                    font-size: 0.9rem;
+                    padding: 15px;
+                }
+            }
