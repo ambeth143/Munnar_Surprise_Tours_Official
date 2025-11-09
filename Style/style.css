@@ -484,11 +484,6 @@ footer {
     height: 300px;
   }
 
-
-  .package-info{
-    offset: 40px;
-  }
-
   .package{
     grid-template-columns: repeat(2, 1fr);
   }
